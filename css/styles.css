@@ -1,0 +1,187 @@
+/* PART I ROOT */
+
+/* PART II GLOBAL & HIDDEN */
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*  PART III TYPOGRAPHY   */
+
+.logo {
+  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #4d5ae5;
+}
+
+/* .logo--color-part {
+  color: var(--accent-main-color);
+} */
+
+.logo--dark-part {
+  color: #2e2f42;
+}
+
+.logo--light-part {
+  color: #f4f4fd;
+}
+
+.header__link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+}
+
+.header__link:hover,
+.header__link:focus {
+  color: #404bbf;
+}
+
+.header__address {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+
+  color: #434455;
+}
+
+.header__address:hover,
+.header__address:focus {
+  color: #404bbf;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  text-align: center;
+}
+
+.two_title {
+  font-size: 36px;
+
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: #2e2f42;
+
+  text-align: center;
+}
+
+.three_title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+
+  text-align: center;
+}
+
+.body-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.body-text--light {
+  color: #f4f4fd;
+}
+
+/*  PART IV BUTTONS   */
+
+.button {
+  /* font-family: "Roboto", sans-serif; */
+  font-family: inherit;
+  /* border-radius: 4px; */
+  background-color: #4d5ae5;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+/*  PART V SECTION   */
+
+.hero,
+.footer {
+  background-color: #2e2f42;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+/*  PART VI OTHER   */
+
+.team__item {
+  background-color: #ffffff;
+}
